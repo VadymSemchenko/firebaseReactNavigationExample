@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -43,13 +44,13 @@
 		33B5D17E934B42259F0C210D /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DC013228B0D4D9A8B61F702 /* Foundation.ttf */; };
 		3476FC955A93459196370872 /* libReactNativeConfig-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CF9A26486A48ADA94934A6 /* libReactNativeConfig-tvOS.a */; };
 		37E6F086D1414DE5997264A8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7E091E26A4347E790C6CA4F /* SimpleLineIcons.ttf */; };
+		3C90B1B289DA4E5787DCEC4A /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62804670A21B4786B5AE847F /* libRNFirebase.a */; };
 		484F4D2F215C4A3DAD2BD3F3 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 371CC09D3AFB404B9EDDD9A5 /* MaterialCommunityIcons.ttf */; };
 		51232DA9841F4786BD2AB0B5 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890EC4150B54F248614C82E /* libReactNativeConfig.a */; };
 		517054693197419EA255BC1F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62A0317A5C3A41AE9D6B9A10 /* Entypo.ttf */; };
 		521FA9DE48144361820E9C06 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44F2E62EBE1B465D903E7065 /* MaterialIcons.ttf */; };
 		52DE0C4607A347ACBB89B64E /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39500F3D31FB492699C2DE17 /* FontAwesome5_Solid.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		833699320D43426CF50D1D38 /* libPods-firebaseReactNavigationExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5427CA1C8B721ED6AD79D519 /* libPods-firebaseReactNavigationExampleTests.a */; };
 		8D4802E1F3664147B9939618 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A22E1399C4574114B49D6000 /* Feather.ttf */; };
 		95359A850AD04C928C4938A1 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAFD62A40C44A5A96106469 /* libRNGestureHandler.a */; };
 		973966F73CDD4A73AD2D75F5 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94B62962A9D945A2AF3024FE /* AntDesign.ttf */; };
@@ -58,7 +59,6 @@
 		9AFAA917CECB45D6BD24A0B7 /* libRNDeviceInfo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3E0707799443F6B522A9B0 /* libRNDeviceInfo-tvOS.a */; };
 		A6974904EB3446C1809E97D7 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3C99C850B054735BD926EBB /* Roboto_medium.ttf */; };
 		A6F2B5E562E5403A835FA2DA /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBB16F3656364613BADA24CA /* rubicon-icon-font.ttf */; };
-		A7DCE0994FC6D7619AD620D6 /* libPods-firebaseReactNavigationExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F519E0763006ABAFF31B1A6E /* libPods-firebaseReactNavigationExample-tvOSTests.a */; };
 		AB39CD5A398A41F897D9FB77 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424C62B4F5014E5C88E9A54C /* Zocial.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C15FC0CD30284758B9302FD1 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A03D3ECD54504C1FA4F62CD3 /* Octicons.ttf */; };
@@ -68,9 +68,7 @@
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		F200E653038E4F81B91FB92B /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFE1F4F40E1147B392C48D14 /* FontAwesome5_Regular.ttf */; };
-		F3A77E51501246B1934328B6 /* libPods-firebaseReactNavigationExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D473ACB798C10BA7A309E72A /* libPods-firebaseReactNavigationExample-tvOS.a */; };
 		FE7716B1D1A4EBD598F70E7B /* libPods-firebaseReactNavigationExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 201E8D03533B86377908A3B3 /* libPods-firebaseReactNavigationExample.a */; };
-		3C90B1B289DA4E5787DCEC4A /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62804670A21B4786B5AE847F /* libRNFirebase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -403,6 +401,13 @@
 			remoteGlobalIDString = A39873CE1EA65EE60051E01A;
 			remoteInfo = "RNVectorIcons-tvOS";
 		};
+		D502EA8D22079BA10003C37A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6734C3A3644D4C4F9BF1DEA0 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -426,10 +431,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = firebaseReactNavigationExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = firebaseReactNavigationExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		195DEC93FEDFFC33BF18648D /* Pods-firebaseReactNavigationExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExample-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExample-tvOSTests/Pods-firebaseReactNavigationExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		201E8D03533B86377908A3B3 /* libPods-firebaseReactNavigationExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseReactNavigationExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		233137CA55198FC1D7F72D11 /* Pods-firebaseReactNavigationExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExampleTests/Pods-firebaseReactNavigationExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		23AA8CC6FF7B3981B09E3C24 /* Pods-firebaseReactNavigationExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExample-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExample-tvOS/Pods-firebaseReactNavigationExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		25FE9CBAF1B1439997ABB417 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* firebaseReactNavigationExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "firebaseReactNavigationExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* firebaseReactNavigationExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "firebaseReactNavigationExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -441,7 +443,6 @@
 		3890EC4150B54F248614C82E /* libReactNativeConfig.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeConfig.a; sourceTree = "<group>"; };
 		39500F3D31FB492699C2DE17 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		39E0C43206104CE29FC36659 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
-		3E8B49350B92C507C9783A24 /* Pods-firebaseReactNavigationExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExample-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExample-tvOS/Pods-firebaseReactNavigationExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3F02FA3339D346B680655087 /* libRNDeviceInfo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNDeviceInfo.a; sourceTree = "<group>"; };
 		41A9634325F2443EB996A8BD /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		424C62B4F5014E5C88E9A54C /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -452,8 +453,10 @@
 		50CF9A26486A48ADA94934A6 /* libReactNativeConfig-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libReactNativeConfig-tvOS.a"; sourceTree = "<group>"; };
 		5427CA1C8B721ED6AD79D519 /* libPods-firebaseReactNavigationExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseReactNavigationExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		62804670A21B4786B5AE847F /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		62A0317A5C3A41AE9D6B9A10 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		653E650B20B0439685C6A120 /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
+		6734C3A3644D4C4F9BF1DEA0 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		6D3E0707799443F6B522A9B0 /* libRNDeviceInfo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNDeviceInfo-tvOS.a"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		830088A5F53C430681E1714D /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../node_modules/react-native-device-info/ios/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
@@ -462,14 +465,12 @@
 		94B62962A9D945A2AF3024FE /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		A03D3ECD54504C1FA4F62CD3 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		A22E1399C4574114B49D6000 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		A2F883EBDB0E1BBFD5EFACFB /* Pods-firebaseReactNavigationExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExample-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExample-tvOSTests/Pods-firebaseReactNavigationExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A726BEA6ED854D51B16B9E31 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		BBB16F3656364613BADA24CA /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		BBBDA81DB122488DBF630A67 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		C7E091E26A4347E790C6CA4F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		CDAFD62A40C44A5A96106469 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		D30F44C670A1FC8DC7AE64EB /* Pods-firebaseReactNavigationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseReactNavigationExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseReactNavigationExampleTests/Pods-firebaseReactNavigationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D3C99C850B054735BD926EBB /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		D473ACB798C10BA7A309E72A /* libPods-firebaseReactNavigationExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseReactNavigationExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D502EA39220782440003C37A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -478,8 +479,6 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F519E0763006ABAFF31B1A6E /* libPods-firebaseReactNavigationExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebaseReactNavigationExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83E93233B364A639D67A7FE /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
-		6734C3A3644D4C4F9BF1DEA0 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		62804670A21B4786B5AE847F /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,7 +487,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				833699320D43426CF50D1D38 /* libPods-firebaseReactNavigationExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +533,6 @@
 				3476FC955A93459196370872 /* libReactNativeConfig-tvOS.a in Frameworks */,
 				9AFAA917CECB45D6BD24A0B7 /* libRNDeviceInfo-tvOS.a in Frameworks */,
 				9AE151CBFF2D44C8AC5F3C0C /* libRNVectorIcons-tvOS.a in Frameworks */,
-				F3A77E51501246B1934328B6 /* libPods-firebaseReactNavigationExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +541,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				A7DCE0994FC6D7619AD620D6 /* libPods-firebaseReactNavigationExample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,12 +797,6 @@
 			children = (
 				89751F06BEA714122CCB3E3D /* Pods-firebaseReactNavigationExample.debug.xcconfig */,
 				49D4AA5849746C2D8C79FF9D /* Pods-firebaseReactNavigationExample.release.xcconfig */,
-				3E8B49350B92C507C9783A24 /* Pods-firebaseReactNavigationExample-tvOS.debug.xcconfig */,
-				23AA8CC6FF7B3981B09E3C24 /* Pods-firebaseReactNavigationExample-tvOS.release.xcconfig */,
-				A2F883EBDB0E1BBFD5EFACFB /* Pods-firebaseReactNavigationExample-tvOSTests.debug.xcconfig */,
-				195DEC93FEDFFC33BF18648D /* Pods-firebaseReactNavigationExample-tvOSTests.release.xcconfig */,
-				233137CA55198FC1D7F72D11 /* Pods-firebaseReactNavigationExampleTests.debug.xcconfig */,
-				D30F44C670A1FC8DC7AE64EB /* Pods-firebaseReactNavigationExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -822,6 +812,7 @@
 				50CF9A26486A48ADA94934A6 /* libReactNativeConfig-tvOS.a */,
 				6D3E0707799443F6B522A9B0 /* libRNDeviceInfo-tvOS.a */,
 				3082DA041E5345D2B9C5AFD5 /* libRNVectorIcons-tvOS.a */,
+				62804670A21B4786B5AE847F /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -869,6 +860,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D502EA8A22079BA00003C37A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D502EA8E22079BA10003C37A /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -876,7 +875,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "firebaseReactNavigationExampleTests" */;
 			buildPhases = (
-				4E098EF8024C86EBF99AE0FB /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -900,6 +898,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				C17AFD3CB8D7D9D80577AB8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -914,7 +913,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebaseReactNavigationExample-tvOS" */;
 			buildPhases = (
-				791C1AD0E02E4362C9F12746 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -933,7 +931,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "firebaseReactNavigationExample-tvOSTests" */;
 			buildPhases = (
-				B4E4D8D2E2DEE8DEDD845A1F /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -1042,6 +1039,10 @@
 				{
 					ProductGroup = D502EA1722077EB90003C37A /* Products */;
 					ProjectRef = 830088A5F53C430681E1714D /* RNDeviceInfo.xcodeproj */;
+				},
+				{
+					ProductGroup = D502EA8A22079BA00003C37A /* Products */;
+					ProjectRef = 6734C3A3644D4C4F9BF1DEA0 /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = D502EA1F22077EBA0003C37A /* Products */;
@@ -1382,6 +1383,13 @@
 			remoteRef = D502EA3722077EBA0003C37A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		D502EA8E22079BA10003C37A /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = D502EA8D22079BA10003C37A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1466,7 +1474,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4E098EF8024C86EBF99AE0FB /* [CP] Check Pods Manifest.lock */ = {
+		C17AFD3CB8D7D9D80577AB8B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1474,62 +1482,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-firebaseReactNavigationExample/Pods-firebaseReactNavigationExample-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebaseReactNavigationExampleTests-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		791C1AD0E02E4362C9F12746 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebaseReactNavigationExample-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4E4D8D2E2DEE8DEDD845A1F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-firebaseReactNavigationExample-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseReactNavigationExample/Pods-firebaseReactNavigationExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4318ECEB3A0690E5F4A0625 /* [CP] Check Pods Manifest.lock */ = {
@@ -1621,7 +1585,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 233137CA55198FC1D7F72D11 /* Pods-firebaseReactNavigationExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1664,7 +1627,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D30F44C670A1FC8DC7AE64EB /* Pods-firebaseReactNavigationExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1769,7 +1731,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E8B49350B92C507C9783A24 /* Pods-firebaseReactNavigationExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1817,7 +1778,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23AA8CC6FF7B3981B09E3C24 /* Pods-firebaseReactNavigationExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1865,7 +1825,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2F883EBDB0E1BBFD5EFACFB /* Pods-firebaseReactNavigationExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1912,7 +1871,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 195DEC93FEDFFC33BF18648D /* Pods-firebaseReactNavigationExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
