@@ -1,39 +1,39 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
 import { useScreens } from "react-native-screens";
 import Config from "react-native-config";
+import { createAppContainer } from "react-navigation";
 
 import { DEVELOPMENT } from "./constants/environmentNames";
+import NavigationService from "./navigation/NavigationService";
+import WelcomeSwitchNavigator from "./navigation/Welcome";
 
+/* Description: https://github.com/kmagiera/react-native-screens */
 useScreens();
 
+/* Reassigning default "__DEV__" variable
+and adding Reactotron
+to default console to avoid
+importing Reactotron to each file,
+where we need to use it */
 const { NODE_ENV } = Config;
-if (NODE_ENV === DEVELOPMENT) {
+__DEV__ = NODE_ENV === DEVELOPMENT;
+if (__DEV__) {
   console.tron = require("../ReactotronConfig").default;
   console.tron.clear();
-  console.tron.log("HELLO!");
 }
 
-export default class App extends Component {
+const AppContainer = createAppContainer(WelcomeSwitchNavigator);
+
+class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-      </View>
+      <AppContainer
+        ref={navigatorRef => {
+          NavigationService.setTopLevelNavigator(navigatorRef);
+        }}
+      />
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 10
-  }
-});
+export default App;
