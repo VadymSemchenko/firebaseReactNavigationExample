@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
-
+import { useScreens } from "react-native-screens";
 import Config from "react-native-config";
 
 import { DEVELOPMENT } from "./constants/environmentNames";
+
+useScreens();
 
 const { NODE_ENV } = Config;
 if (NODE_ENV === DEVELOPMENT) {
