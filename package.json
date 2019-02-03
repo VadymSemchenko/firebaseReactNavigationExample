@@ -10,12 +10,14 @@
     "clear-modules": "rm -rf node_modules yarn.lock && yarn && yarn clear"
   },
   "dependencies": {
+    "native-base": "^2.11.0",
     "react": "16.6.3",
     "react-native": "0.58.3",
     "react-native-config": "0.11.7",
     "react-native-device-info": "^0.26.1",
     "react-native-gesture-handler": "^1.0.15",
     "react-native-screens": "^1.0.0-alpha.22",
+    "react-native-vector-icons": "^6.2.0",
     "react-navigation": "^3.1.2"
   },
   "devDependencies": {

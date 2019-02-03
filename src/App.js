@@ -22,18 +22,13 @@ if (__DEV__) {
   console.tron.clear();
 }
 
-const AppContainer = createAppContainer(WelcomeSwitchNavigator);
-
-class App extends Component {
-  render() {
-    return (
-      <AppContainer
-        ref={navigatorRef => {
-          NavigationService.setTopLevelNavigator(navigatorRef);
-        }}
-      />
-    );
-  }
-}
-
-export default App;
+export default () => {
+  const AppContainer = createAppContainer(WelcomeSwitchNavigator);
+  return (
+    <AppContainer
+      ref={navigatorRef => {
+        NavigationService.setTopLevelNavigator(navigatorRef);
+      }}
+    />
+  );
+};

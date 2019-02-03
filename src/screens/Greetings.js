@@ -1,8 +1,29 @@
 import React, { Component } from "react";
-import { View, Text, Button, StyleSheet } from "react-native";
+import { Container, Button, Text, Content } from "native-base";
+
+import { GREETINGS, AUTHORIZATION } from "../constants/screenNames";
+import baseStyles from "../styles/baseStyles";
 
 export default class componentName extends Component {
+  static displayName = GREETINGS;
+
   render() {
-    return <View />;
+    const { center } = baseStyles;
+    return (
+      <Container>
+        <Content contentContainerStyle={center}>
+          <Button success onPress={this.navigateToAuthorization}>
+            <Text>Welcome!</Text>
+          </Button>
+        </Content>
+      </Container>
+    );
   }
+
+  navigateToAuthorization = () => {
+    const {
+      navigation: { navigate }
+    } = this.props;
+    navigate(AUTHORIZATION);
+  };
 }

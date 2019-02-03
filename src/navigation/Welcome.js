@@ -1,5 +1,5 @@
 import { createSwitchNavigator } from "react-navigation";
-import { Greeting, Authorization } from "../screens";
+import { Greetings, Authorization } from "../screens";
 
 export default createSwitchNavigator(
   {
@@ -7,6 +7,6 @@ export default createSwitchNavigator(
     Authorization
   },
   {
-    initialRouteName: Greeting.displayName
+    initialRouteName: Greetings.displayName
   }
 );
