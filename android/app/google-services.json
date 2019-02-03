@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1091163577677",
+    "firebase_url": "https://serge-mikhailov.firebaseio.com",
+    "project_id": "serge-mikhailov",
+    "storage_bucket": "serge-mikhailov.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091163577677:android:54bc4d7b2ef61ed9",
+        "android_client_info": {
+          "package_name": "com.firebasereactnavigationexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091163577677-dmbisnhh6752pisgbjqtv1fl293vjqdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOPB6V7WBr60rGvXmd-RlCb7LQcmpT3Tw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
